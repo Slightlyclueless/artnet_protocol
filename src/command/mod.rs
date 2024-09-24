@@ -1,6 +1,7 @@
 mod output;
 mod poll;
 mod poll_reply;
+mod sync;
 
 use crate::{Error, Result};
 use byteorder::{ByteOrder, LittleEndian, WriteBytesExt};
