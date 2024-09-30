@@ -81,7 +81,7 @@ mod parsing {
     fn protver_below_14() {
         // Because Art-Net is guaranteed to be backwards-compatible,
         // we should be able to parse versions below 14,
-        // even tough these should never be seen in the wild
+        // even though these should never be seen in the wild
         let packet = &[
             65, 114, 116, 45, 78, 101, 116, 0, 0, 80, 0, 0, 0, 0, 1, 0, 0, 2, 255, 255,
         ];
